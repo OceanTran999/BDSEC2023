@@ -6,25 +6,16 @@ First, I think most people will "ping" to the Server, so I decided to search ICM
 ![icmp](https://github.com/OceanTran999/BDSEC2023/assets/100577019/5585ef18-e61c-423d-9398-093d65aa6ec2)
 
 As you can see, there are "ICMP request" and "ICMP response" packets which you'll know the flag.
-Therefore our flag is:
-```console
-BDSEC{serverip_attackerip}
-```
+Therefore our flag is: ``` BDSEC{serverip_attackerip} ```
 
 # Hostname
 ![Chal](https://github.com/OceanTran999/BDSEC2023/assets/100577019/566bc835-a7be-4834-9aad-18b4a73f13a8)
 
-To find hostname, I used filter with:
-```console
-http.host
-```
+To find hostname, I used filter with http.host
 
 ![Hostname](https://github.com/OceanTran999/BDSEC2023/assets/100577019/5bd8af52-3774-4b5c-b5d4-334b31214c7c)
 
-Flag:
-```console
-BDSEC{nanomate-solutions.com}
-```
+Flag: _**BDSEC{nanomate-solutions.com}**_
 
 # Follow the Path
 ![Chal](https://github.com/OceanTran999/BDSEC2023/assets/100577019/bd11b4b8-06ee-44dd-bccb-0348ea92b456)
@@ -33,10 +24,7 @@ In this challenge, I also used HTTP packets to find the path.
 
 ![http](https://github.com/OceanTran999/BDSEC2023/assets/100577019/1af22786-3d6a-40ef-9197-d75752daad86)
 
-Flag: 
-```console 
-BDSEC{/app/admin_panel}
-```
+Flag: _**BDSEC{/app/admin_panel}**_
 
 # Compromised Account
 ![Chal](https://github.com/OceanTran999/BDSEC2023/assets/100577019/cd4473ff-0ca4-4986-a666-69d063f2db2a)
@@ -54,7 +42,4 @@ Therefore, I tried to find the packet which had "Login successful"
 
 ![find_packet](https://github.com/OceanTran999/BDSEC2023/assets/100577019/88dedf3c-9977-4d48-b8dc-5e5e765698de)
 
-Flag:
-```console
-BDSEC{tareq@gmail.com_tareq@nanomate}
-```
+Flag: _**BDSEC{tareq@gmail.com_tareq@nanomate}**_

@@ -35,7 +35,7 @@ Wakuwaku~~ I finally got the flag
 
 ![Flag](https://github.com/OceanTran999/BDSEC2023/assets/100577019/24e27b84-5fc5-428c-979d-ce37573b3a90)
 
-_**Sadly :( these 2 challenges beneath I didn't have time to solve, but I was be able to solve it after the competition XD**_
+_**Sadly :( these 2 beneath challenges I didn't have time to solve, but I was be able to solve it after the competition XD**_
 
 # callme
 Type of file:
@@ -85,6 +85,6 @@ Did as same as those 2 above challenges. I got the stack like this:
 
 ![stack](https://github.com/OceanTran999/BDSEC2023/assets/100577019/5062f22a-2f55-4ed2-a6cb-b410f8c5e760)
 
-Finally, submit to server and I got the flag. Yay :D
+Finally, submit to server and I got the flag. Yayyyyy :D
 
 ![Flag](https://github.com/OceanTran999/BDSEC2023/assets/100577019/2092c5d6-660f-40ec-8a7c-7990fa790604)

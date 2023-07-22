@@ -1,7 +1,7 @@
 # IP Addr
 ![Chal](https://github.com/OceanTran999/BDSEC2023/assets/100577019/7ca8a227-a11c-4074-94e3-798bd09ec237)
 
-First, I think most people will "ping" to the Server, so I decided to search ICMP Protocol
+First, I think most people will `ping` to the Server, so I decided to search ICMP Protocol
 
 ![icmp](https://github.com/OceanTran999/BDSEC2023/assets/100577019/5585ef18-e61c-423d-9398-093d65aa6ec2)
 

@@ -35,7 +35,7 @@ Wakuwaku~~ I finally got the flag
 
 ![Flag](https://github.com/OceanTran999/BDSEC2023/assets/100577019/24e27b84-5fc5-428c-979d-ce37573b3a90)
 
-_**Sadly :( these 2 beneath challenges I didn't have time to solve, but I was be able to solve it after the competition XD**_
+_**Sadly :( these 2 beneath challenges I didn't have time to solve, but I was able to solve it after the competition XD**_
 
 # callme
 Type of file:
@@ -52,11 +52,11 @@ Check the file's protection:
 
 ![checksec](https://github.com/OceanTran999/BDSEC2023/assets/100577019/17145c7f-74be-4cf7-b857-c82d3f757cbd)
 
-Then I `disassemble main`. And did as same as the _**AnyaForger**_
+Then I `disassemble main`. And did as same as the _**AnyaForger**_ challenge
 
 ![scanf](https://github.com/OceanTran999/BDSEC2023/assets/100577019/a1a971a5-f7cd-4e32-bf75-4c6d16575eff)
 
-![test](https://github.com/OceanTran999/BDSEC2023/assets/100577019/f4a1fc4c-426c-412f-8aed-4b48b5bcec
+![test](https://github.com/OceanTran999/BDSEC2023/assets/100577019/28534e8a-e256-4c2e-bd83-ebf53d9355b5)
 
 Finally, I got stack like this:
 

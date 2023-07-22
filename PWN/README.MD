@@ -35,12 +35,56 @@ Wakuwaku~~ I finally got the flag
 
 ![Flag](https://github.com/OceanTran999/BDSEC2023/assets/100577019/24e27b84-5fc5-428c-979d-ce37573b3a90)
 
-```Sadly :( these 2 challenges I didn't have time to solve, but I will be able to solve it after the competition XD```
+_**Sadly :( these 2 challenges beneath I didn't have time to solve, but I was be able to solve it after the competition XD**_
 
 # callme
+Type of file:
 
+![readelf](https://github.com/OceanTran999/BDSEC2023/assets/100577019/14100d70-606b-4331-ae17-f14e0dc80ef1)
+
+Used IDAPro 32-bits, I got source code. Here's the `main()` function
+
+![mainFunc](https://github.com/OceanTran999/BDSEC2023/assets/100577019/29dc3b4e-8dda-4b1e-aa8b-2fff2a1f5315)
+
+![mainFunc_2](https://github.com/OceanTran999/BDSEC2023/assets/100577019/ac73c539-6663-4f6a-bce5-bf000248f979)
+
+Check the file's protection:
+
+![checksec](https://github.com/OceanTran999/BDSEC2023/assets/100577019/17145c7f-74be-4cf7-b857-c82d3f757cbd)
+
+Then I `disassemble main`. And did as same as the _**AnyaForger**_
+
+![scanf](https://github.com/OceanTran999/BDSEC2023/assets/100577019/a1a971a5-f7cd-4e32-bf75-4c6d16575eff)
+
+![test](https://github.com/OceanTran999/BDSEC2023/assets/100577019/f4a1fc4c-426c-412f-8aed-4b48b5bcec
+
+Finally, I got stack like this:
+
+![stack](https://github.com/OceanTran999/BDSEC2023/assets/100577019/a4bd7ee6-2f51-41e3-96f7-49dd9b2d777e)
+28)
+
+Booom!!!! I got the flag. EZPZ
+
+![flag](https://github.com/OceanTran999/BDSEC2023/assets/100577019/613dc8b6-1cb0-4654-b3b6-425f2e57ce61)
 
 
 # ghost
+In this challenge, I can't believe that I solved it cause the file's protection is like this :v
 
+![checksec](https://github.com/OceanTran999/BDSEC2023/assets/100577019/95a55e00-77cb-4ffc-93b0-ff124bff389c)
 
+Then I check the type of file and it is the ELF 64-bits
+
+![readelf](https://github.com/OceanTran999/BDSEC2023/assets/100577019/caae748c-65d1-4013-b630-e4f446faaeab)
+
+Therefore, I had to use IDAPro 64-bits to observe the source code. Here's the `main()` function:
+
+![SourceCode](https://github.com/OceanTran999/BDSEC2023/assets/100577019/dd192010-f14a-41b7-b718-aa4505717fd8)
+
+Did as same as those 2 above challenges. I got the stack like this:
+
+![stack](https://github.com/OceanTran999/BDSEC2023/assets/100577019/5062f22a-2f55-4ed2-a6cb-b410f8c5e760)
+
+Finally, submit to server and I got the flag. Yay :D
+
+![Flag](https://github.com/OceanTran999/BDSEC2023/assets/100577019/2092c5d6-660f-40ec-8a7c-7990fa790604)

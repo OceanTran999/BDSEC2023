@@ -36,6 +36,7 @@ In this challenge, I also used HTTP packets to find the path.
 Flag: 
 ```console 
 BDSEC{/app/admin_panel}
+```
 
 # Compromised Account
 ![Chal](https://github.com/OceanTran999/BDSEC2023/assets/100577019/cd4473ff-0ca4-4986-a666-69d063f2db2a)

@@ -6,7 +6,8 @@ First, I think most people will "ping" to the Server, so I decided to search ICM
 ![icmp](https://github.com/OceanTran999/BDSEC2023/assets/100577019/5585ef18-e61c-423d-9398-093d65aa6ec2)
 
 As you can see, there are "ICMP request" and "ICMP response" packets which you'll know the flag.
-Flag: ```BDSEC{serverip_attackerip}```
+
+Flag: ```BDSEC{192.168.1.5_192.168.1.7}```
 
 # Hostname
 ![Chal](https://github.com/OceanTran999/BDSEC2023/assets/100577019/566bc835-a7be-4834-9aad-18b4a73f13a8)

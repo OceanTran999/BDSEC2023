@@ -69,7 +69,7 @@ Booom!!!! I got the flag. EZPZ
 
 
 # ghost
-In this challenge, I can't believe that I solved it cause the file's protection is like this :v
+Here we got the protections
 
 ![checksec](https://github.com/OceanTran999/BDSEC2023/assets/100577019/95a55e00-77cb-4ffc-93b0-ff124bff389c)
 
